@@ -1,0 +1,33 @@
+/* UserAccount */
+
+.user_btn {
+  padding: 0.1rem 0.3rem !important;
+  font-size: 0.7rem;
+}
+
+.user_details {
+  height: 80%;
+  border: 1px solid black;
+  margin: 0.5rem;
+  background: white;
+}
+
+.export_print_btns {
+  gap: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 5px; /* Adjust the padding as needed */
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}

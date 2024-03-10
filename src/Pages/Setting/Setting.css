@@ -1,0 +1,42 @@
+.setting_container {
+  background-color: aliceblue;
+  width: 800px;
+  height: 500px;
+  border-top: 15px solid #5a5768;
+  border-bottom: 15px solid #5a5768;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 95%;
+  height: 411px;
+  background-color: #dee1f7;
+  border: 1px solid #a59f9f47;
+  padding: 0.8rem;
+  margin: 0.5rem;
+}
+
+.form_input {
+  margin: 2rem 1rem;
+}
+
+.form_input form {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.input_box {
+  width: 50px;
+}
+
+.form_btn {
+}
+
+.backup_box {
+  width: 40%;
+  border: 1px solid;
+  padding: 0.5rem;
+}

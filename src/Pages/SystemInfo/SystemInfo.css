@@ -1,0 +1,76 @@
+.systemInfo_container {
+  width: 90%;
+  height: 90%;
+  border: none;
+}
+
+.system_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid grey;
+}
+
+.system_icons h5 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.system_optionIcons {
+  width: 10%;
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+}
+
+.system_heading {
+  background: #44479c;
+  color: #d8d8d8;
+  margin: 0.5rem 0;
+}
+
+.info_content {
+  border: 1px solid grey;
+}
+
+.info_detailBoxs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info_detailBoxs p {
+  margin: 0.5rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.info_row {
+  margin: 0.5rem 0;
+}
+
+.info_row {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  display: flex;
+  gap: 20px;
+}
+
+.info_btn {
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+
+.copy_btn {
+  color: #44479c;
+  border-bottom: 1px solid;
+  background-color: #bfe4f0;
+  border-radius: 10px;
+  padding: 2px 5px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.copy_btn:hover {
+  background-color: #44479c;
+  color: #bfe4f0;
+}

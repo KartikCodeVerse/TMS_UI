@@ -1,0 +1,28 @@
+.select_user {
+  display: flex;
+  justify-content: space-around;
+}
+
+.accept_btn {
+  font-size: 0.8rem;
+}
+
+.user_details_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  height: 80%;
+  margin: 0.8rem 0;
+}
+.detail_box {
+  height: 100%;
+  text-align: center;
+}
+.detail_box h5 {
+  font-weight: 600;
+  color: #2b246ecf;
+}
+.user_box {
+  height: 100%;
+  background: #fffefefe;
+}

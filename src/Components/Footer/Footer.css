@@ -1,0 +1,33 @@
+/* footer */
+
+.footer {
+  height: 25vh;
+}
+
+.footer_container {
+  width: 80vw;
+}
+
+.footer_top {
+  width: 100%;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.footer_nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 1.5rem;
+}
+
+.rights {
+  color: whitesmoke;
+}

@@ -1,0 +1,39 @@
+.quite_card {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 5px;
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 4px rgb(170 149 223 / 52%);
+}
+
+.quite_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.quite_middle {
+  padding: 2rem 0;
+  padding-left: 0.5rem;
+}
+
+.quite_sure p {
+  font-size: 1.5rem;
+}
+
+.quite_bottom {
+  background: #e8e3e3;
+  padding: 1.5rem;
+}
+
+.quite_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+h2 {
+  font-weight: 500;
+}

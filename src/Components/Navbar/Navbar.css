@@ -1,0 +1,29 @@
+.navbar {
+  padding: 0.5rem 2rem;
+  border-bottom: 2px solid grey;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active-link:focus {
+  color: #5d8dc5 !important; /* Change this to your desired color */
+  /* Add any other styles for the active link */
+}
+
+.nav_brand h2 {
+  margin-left: 5px;
+  color: #d4c8c8;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.logo {
+  width: 50px;
+  border-radius: 40%;
+  overflow: hidden;
+}
+
+.nav_container {
+  gap: 1rem;
+
+  margin-left: 50px;
+}
